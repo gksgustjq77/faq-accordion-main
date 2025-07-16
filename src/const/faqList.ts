@@ -2,7 +2,7 @@ export type FAQItem = {
   id: number;
   title: string;
   content: string;
-  isOpen: boolean; // true면 "-" 아이콘, false면 "+" 아이콘
+  isOpen: boolean;
 };
 
 export const faqList: FAQItem[] = [
@@ -29,6 +29,20 @@ export const faqList: FAQItem[] = [
     id: 4,
     title: "Vite는 무엇인가요?",
     content: "Vite는 빠른 프론트엔드 개발을 위한 빌드 도구입니다.",
+    isOpen: false,
+  },
+  {
+    id: 5,
+    title: "TypeScript의 장점은 무엇인가요?",
+    content:
+      "정적 타입을 통해 코드의 안정성과 가독성을 높여주며, 개발 시 오류를 미리 방지할 수 있습니다.",
+    isOpen: false,
+  },
+  {
+    id: 6,
+    title: "컴포넌트 재사용이란 무엇인가요?",
+    content:
+      "여러 곳에서 동일한 컴포넌트를 재사용하여 코드 중복을 줄이고 유지보수를 쉽게 하는 기법입니다.",
     isOpen: false,
   },
 ];

@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import scrollbar from "tailwind-scrollbar";
 export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -22,4 +23,5 @@ export default {
     md: "768px",
     lg: "1200px",
   },
+  plugins: [scrollbar],
 };

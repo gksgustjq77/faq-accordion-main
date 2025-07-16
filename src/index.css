@@ -67,6 +67,27 @@ button:focus-visible {
   }
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* 스크롤바 트랙 꾸미기 */
+::-webkit-scrollbar-track {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* 스크롤바 손잡이 꾸미기 */
+::-webkit-scrollbar-thumb {
+  background: #c8c8c8;
+  border-radius: 5px;
+}
+
+/* 스크롤바 손잡이 호버 시 색 */
+::-webkit-scrollbar-thumb:hover {
+  background: #c8c8c8;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -9,6 +9,12 @@ body {
   background-size: 100% auto;
 }
 
+@media (max-width: 480px) {
+  body {
+    background-image: url("/images/background-pattern-mobile.svg");
+  }
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

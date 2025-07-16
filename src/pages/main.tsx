@@ -13,7 +13,7 @@ const Main: React.FC = () => {
   };
   return (
     <>
-      <div className="flex min-w-[700px] select-text flex-col gap-12 rounded-[12px] bg-white p-[40px] shadow-md [&>*]:select-none">
+      <div className="flex max-h-[1200px] select-text flex-col gap-8 overflow-auto rounded-[12px] bg-white p-[40px] shadow-md md:min-w-[700px] md:gap-12 [&>*]:select-none">
         <Title></Title>
         <div className="flex flex-col gap-6">
           {faqs.map((e) => {
