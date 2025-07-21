@@ -4,7 +4,7 @@
 
 ## Live site
 
-- **Vercal**: https://product-list-with-cart-main-beige-eight.vercel.app
+- **Vercal**: https://faq-accordion-main-t43x.vercel.app/
 
 ## PC 💻
 
