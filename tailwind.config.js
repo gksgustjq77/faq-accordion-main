@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        // redhat: ['"Red Hat Text"', "red-hat"],
+        sans: ['Work Sans"', "sans"],
       },
     },
     colors: {

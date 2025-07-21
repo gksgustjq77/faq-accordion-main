@@ -50,3 +50,21 @@ body {
 .read-the-docs {
   color: #888;
 }
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("./assets/fonts/static/WorkSans-Regular.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("./assets/fonts/static/WorkSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("./assets/fonts/static/WorkSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+}

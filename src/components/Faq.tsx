@@ -13,7 +13,7 @@ const Faq: React.FC<FaqProps> = ({ faqProps, onClick }) => {
         onClick={() => onClick(faqProps.id)}
       >
         <div className="flex items-center justify-between">
-          <span className="group-hover:text-purple-1000 text-base font-semibold text-purple-950 md:text-2xl">
+          <span className="group-hover:text-purple-1000 text-base font-semibold text-purple-950 md:text-xl">
             {faqProps.title}
           </span>
           <img
@@ -22,7 +22,7 @@ const Faq: React.FC<FaqProps> = ({ faqProps, onClick }) => {
                 ? "/images/icon-minus.svg"
                 : "/images/icon-plus.svg"
             }
-            className="ml-[5px] h-[30px] w-[30px] md:h-[50px] md:w-[50px]"
+            className="ml-[5px] h-[30px] w-[30px] md:h-[30px] md:w-[30px]"
           />
         </div>
         {faqProps.isOpen && (
